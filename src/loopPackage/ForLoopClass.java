@@ -7,10 +7,10 @@ public class ForLoopClass {
 	int enteredPin;
 	int withdrawAmount;
 	int availableBalance;
-
+	Scanner sc = new Scanner(System.in);
 	void comparePin() {
 		int lockNumber = 0;
-		Scanner sc = new Scanner(System.in);
+		
 
 		for (int counter = 1; counter <= 3; counter++) {
 			System.out.println("Enter the PIN:");
